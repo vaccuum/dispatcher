@@ -1,0 +1,25 @@
+{
+    "license": "MIT",
+    "name": "vaccuum/dispatcher",
+    "description": "Action dispatcher for vaccuum framework.",
+    "keywords": [
+        "vaccuum",
+        "framework",
+        "action",
+        "dispatcher"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Łepczyński",
+            "email": "lepczynski.s@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vaccuum\\Dispatcher\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
