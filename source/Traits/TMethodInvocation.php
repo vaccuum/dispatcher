@@ -20,7 +20,7 @@ trait TMethodInvocation
         if (!method_exists($object, $action))
         {
             $message = get_class($object) . " object has no {$action} method.";
-            throw new DispatcherException($message, $arguments, $action, $object);
+            throw new DispatcherException($message);
         }
 
         $reflection = new ReflectionMethod($object, $action);
